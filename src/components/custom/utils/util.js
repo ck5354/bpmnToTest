@@ -1,13 +1,13 @@
 const customElements = ['bpmn:Abc','bpmn:Task', 'bpmn:StartEvent'] // 自定义元素的类型
 const customConfig = { // 自定义元素的配置
     'bpmn:Abc': {
-        'url': require('E:\\vue_frist\\my-project\\src\\assets\\abc.png'),
+        'url': require('../../../assets/abc.png'),
         // 'url': require('../../assets/rules.png'),
         // 'url': 'https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png',
         'attr': { x: 0, y: 0, width: 48, height: 48 }
     },
     'bpmn:Task': {
-        'url': require('E:\\vue_frist\\my-project\\src\\assets\\rules.png'),
+        'url': require('../../../assets/rules.png'),
         // 'url': require('../../assets/rules.png'),
         // 'url': 'https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png',
         'attr': { x: 0, y: 0, width: 48, height: 48 }
